@@ -1,0 +1,2 @@
+# corallium
+Corallium masternode resources
