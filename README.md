@@ -7,7 +7,7 @@ Shell script to install a `Corallium Coin Masternode` on a Linux server running 
 To start the installation, login as `root` to your VPS and run the two commands listed below. Note that the masternode does not run as root but as a user that the script will create. The script, however, needs to run as root so your VPS can be configured correctly.
 
 ```
-wget -q wget -q https://github.com/click2install/corallium/raw/master/install-corallium.sh  
+wget -q https://github.com/click2install/corallium/raw/master/install-corallium.sh  
 bash install-corallium.sh
 ```
 This script is intended to be used on a clean server, or a server that has used this script to install 1 or more previous nodes. 
@@ -39,7 +39,7 @@ You are now ready to configure your local wallet and finish the masternode setup
  7. Once confirmed, open your wallet console and type: `masternode outputs`
  8. Open your masternode configuration file from the wallets `Tools` menu item.
  9. In your masternodes.conf file add an entry that looks like: `[address-name from #4] [ip:port of your VPS from script output] [privkey from script output] [txid from from #7] [tx output index from #7]` - 
- 10. Your masternodes.conf file entry should look like: `MN-1 127.0.0.2:9857 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0` and it must be all on one line in your masternodes config file
+ 10. Your masternodes.conf file entry should look like: `MN-1 127.0.0.2:10233 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0` and it must be all on one line in your masternodes config file
  11. Save and close your masternodes.conf file
  12. Close your wallet and restart
  13. Go to Masternodes
