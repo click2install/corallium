@@ -1,6 +1,6 @@
 # Corallium Coin
 
-Shell script to install a `Corallium Coin Masternode` on a Linux server running Ubuntu 16.04.
+Shell script to install a `Corallium Coin Masternode` on a Linux server running Ubuntu 16.04. Supports IPv4, IPv6 and multiple nodes on a single VPS.
 
 
 ## Installation
